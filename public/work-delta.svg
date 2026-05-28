@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <!-- Dark editor background -->
+  <rect width="400" height="300" fill="#1e1e2e"/>
+
+  <!-- Title bar -->
+  <rect width="400" height="32" fill="#16162a"/>
+  <circle cx="16" cy="16" r="5" fill="#3a3a52"/>
+  <circle cx="32" cy="16" r="5" fill="#3a3a52"/>
+  <circle cx="48" cy="16" r="5" fill="#3a3a52"/>
+  <rect x="144" y="12" width="112" height="8" rx="3" fill="#2e2e42"/>
+
+  <!-- Line numbers gutter -->
+  <rect x="0" y="32" width="40" height="268" fill="#191926"/>
+
+  <!-- Line number stubs -->
+  <rect x="8"  y="52"  width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="68"  width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="84"  width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="100" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="116" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="132" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="148" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="164" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="180" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="196" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="212" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="228" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="244" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="260" width="20" height="5" rx="2" fill="#2e2e42"/>
+  <rect x="8"  y="276" width="20" height="5" rx="2" fill="#2e2e42"/>
+
+  <!-- Code lines — varying lengths, keyword highlighting -->
+  <!-- Line 1: keyword + identifier -->
+  <rect x="52" y="50"  width="44" height="7" rx="2" fill="#7c7caa"/>
+  <rect x="100" y="50" width="72" height="7" rx="2" fill="#c8c8e0"/>
+  <rect x="176" y="50" width="16" height="7" rx="2" fill="#8888b8"/>
+
+  <!-- Line 2: indented string -->
+  <rect x="68"  y="66"  width="56" height="7" rx="2" fill="#a0a8c8"/>
+  <rect x="128" y="66"  width="104" height="7" rx="2" fill="#8888b8"/>
+
+  <!-- Line 3: blank -->
+  <!-- Line 4: function -->
+  <rect x="52"  y="98"  width="52" height="7" rx="2" fill="#7c7caa"/>
+  <rect x="108" y="98"  width="88" height="7" rx="2" fill="#c8c8e0"/>
+  <rect x="200" y="98"  width="120" height="7" rx="2" fill="#9090b8"/>
+
+  <!-- Line 5: indented -->
+  <rect x="68"  y="114" width="36" height="7" rx="2" fill="#a0a8c8"/>
+  <rect x="108" y="114" width="64" height="7" rx="2" fill="#c0c0d8"/>
+  <rect x="176" y="114" width="48" height="7" rx="2" fill="#8888b8"/>
+
+  <!-- Line 6 -->
+  <rect x="68"  y="130" width="24" height="7" rx="2" fill="#9898c0"/>
+  <rect x="96"  y="130" width="80" height="7" rx="2" fill="#a0a8c8"/>
+  <rect x="180" y="130" width="16" height="7" rx="2" fill="#7878a8"/>
+  <rect x="200" y="130" width="56" height="7" rx="2" fill="#c0c0d8"/>
+
+  <!-- Line 7: closing brace -->
+  <rect x="52"  y="146" width="12" height="7" rx="2" fill="#8888b8"/>
+
+  <!-- Gap line -->
+
+  <!-- Line 9: comment -->
+  <rect x="52"  y="178" width="180" height="7" rx="2" fill="#4a4a6a"/>
+
+  <!-- Line 10 -->
+  <rect x="52"  y="194" width="44" height="7" rx="2" fill="#7c7caa"/>
+  <rect x="100" y="194" width="60" height="7" rx="2" fill="#c8c8e0"/>
+  <rect x="164" y="194" width="96" height="7" rx="2" fill="#9090b8"/>
+
+  <!-- Line 11 -->
+  <rect x="68"  y="210" width="32" height="7" rx="2" fill="#a0a8c8"/>
+  <rect x="104" y="210" width="120" height="7" rx="2" fill="#c0c0d8"/>
+
+  <!-- Line 12 -->
+  <rect x="68"  y="226" width="64" height="7" rx="2" fill="#9898c0"/>
+  <rect x="136" y="226" width="48" height="7" rx="2" fill="#8888b8"/>
+  <rect x="188" y="226" width="72" height="7" rx="2" fill="#a0a8c8"/>
+
+  <!-- Line 13: closing -->
+  <rect x="52"  y="242" width="12" height="7" rx="2" fill="#8888b8"/>
+
+  <!-- Cursor blink -->
+  <rect x="52"  y="258" width="8" height="12" rx="1" fill="#9090b8" opacity="0.8"/>
+
+  <!-- Scrollbar -->
+  <rect x="392" y="32" width="8" height="268" fill="#16162a"/>
+  <rect x="393" y="80" width="6" height="60" rx="3" fill="#3a3a52"/>
+</svg>

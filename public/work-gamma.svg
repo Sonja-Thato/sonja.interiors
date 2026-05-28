@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#ebebeb"/>
+
+  <!-- Connector lines -->
+  <line x1="200" y1="60"  x2="80"  y2="180" stroke="#c8c8c8" stroke-width="2"/>
+  <line x1="200" y1="60"  x2="200" y2="180" stroke="#c8c8c8" stroke-width="2"/>
+  <line x1="200" y1="60"  x2="320" y2="180" stroke="#c8c8c8" stroke-width="2"/>
+  <line x1="80"  y1="180" x2="200" y2="180" stroke="#d4d4d4" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="200" y1="180" x2="320" y2="180" stroke="#d4d4d4" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- Top node -->
+  <circle cx="200" cy="60" r="36" fill="#ffffff" stroke="#d0d0d0" stroke-width="1.5"/>
+  <rect x="175" y="53" width="50" height="8"  rx="2" fill="#d4d4d4"/>
+  <rect x="183" y="67" width="34" height="6"  rx="2" fill="#e0e0e0"/>
+
+  <!-- Bottom left node -->
+  <circle cx="80" cy="180" r="32" fill="#ffffff" stroke="#d0d0d0" stroke-width="1.5"/>
+  <rect x="58"  y="173" width="44" height="8"  rx="2" fill="#d4d4d4"/>
+  <rect x="65"  y="187" width="30" height="6"  rx="2" fill="#e0e0e0"/>
+
+  <!-- Bottom centre node -->
+  <circle cx="200" cy="180" r="32" fill="#f4f4f4" stroke="#c8c8c8" stroke-width="1.5"/>
+  <rect x="178" y="173" width="44" height="8"  rx="2" fill="#d8d8d8"/>
+  <rect x="185" y="187" width="30" height="6"  rx="2" fill="#e4e4e4"/>
+
+  <!-- Bottom right node -->
+  <circle cx="320" cy="180" r="32" fill="#ffffff" stroke="#d0d0d0" stroke-width="1.5"/>
+  <rect x="298" y="173" width="44" height="8"  rx="2" fill="#d4d4d4"/>
+  <rect x="305" y="187" width="30" height="6"  rx="2" fill="#e0e0e0"/>
+
+  <!-- Arrow heads -->
+  <polygon points="80,148 74,162 86,162"  fill="#c8c8c8"/>
+  <polygon points="200,148 194,162 206,162" fill="#c8c8c8"/>
+  <polygon points="320,148 314,162 326,162" fill="#c8c8c8"/>
+
+  <!-- Label at bottom -->
+  <rect x="148" y="248" width="104" height="8" rx="3" fill="#d4d4d4"/>
+</svg>

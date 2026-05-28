@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="s2" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000014"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="#e8e8e8"/>
+
+  <!-- Browser window -->
+  <rect x="24" y="32" width="352" height="336" rx="8" fill="#ffffff" filter="url(#s2)"/>
+
+  <!-- Chrome bar -->
+  <rect x="24" y="32" width="352" height="36" rx="8" fill="#f0f0f0"/>
+  <rect x="24" y="56" width="352" height="12" fill="#f0f0f0"/>
+  <circle cx="48"  cy="50" r="5" fill="#dcdcdc"/>
+  <circle cx="63"  cy="50" r="5" fill="#dcdcdc"/>
+  <circle cx="78"  cy="50" r="5" fill="#dcdcdc"/>
+  <rect x="100" y="44" width="200" height="12" rx="6" fill="#e4e4e4"/>
+
+  <!-- Nav strip -->
+  <rect x="24" y="68" width="352" height="36" fill="#fafafa"/>
+  <rect x="40" y="80"  width="56" height="8" rx="2" fill="#d8d8d8"/>
+  <rect x="248" y="82" width="36" height="6" rx="2" fill="#e0e0e0"/>
+  <rect x="292" y="82" width="36" height="6" rx="2" fill="#e0e0e0"/>
+  <rect x="336" y="80" width="28" height="8" rx="2" fill="#d4d4d4"/>
+
+  <!-- Hero block -->
+  <rect x="24" y="104" width="352" height="120" fill="#f8f8f8"/>
+  <rect x="88" y="120"  width="224" height="14" rx="3" fill="#e0e0e0"/>
+  <rect x="64" y="144"  width="272" height="22" rx="3" fill="#d4d4d4"/>
+  <rect x="120" y="178" width="80" height="22" rx="4" fill="#c8c8c8"/>
+  <rect x="208" y="178" width="80" height="22" rx="4" fill="#e0e0e0"/>
+
+  <!-- Content row -->
+  <rect x="40"  y="244" width="96"  height="96" rx="6" fill="#ebebeb"/>
+  <rect x="152" y="244" width="96"  height="96" rx="6" fill="#e4e4e4"/>
+  <rect x="264" y="244" width="96"  height="96" rx="6" fill="#eeeeee"/>
+
+  <!-- Text stubs under cards -->
+  <rect x="40"  y="352" width="64" height="6" rx="2" fill="#dedede"/>
+  <rect x="152" y="352" width="64" height="6" rx="2" fill="#dedede"/>
+  <rect x="264" y="352" width="64" height="6" rx="2" fill="#dedede"/>
+</svg>

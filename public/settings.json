@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "image":       "/hero.svg",
+    "eyebrow":     "Introducing version 1",
+    "heading":     "A clear headline for your product",
+    "sub":         "A short supporting sentence that explains what you do and who it is for. Keep this to two lines maximum.",
+    "primaryText": "Get started",
+    "primaryHref": "#contact",
+    "secondaryText": "Learn more",
+    "secondaryHref": "#features"
+  },
+
+  "projects": [
+    {
+      "image": "/work-alpha.svg",
+      "tag": "Branding",
+      "title": "Project Alpha",
+      "description": "A brand identity system built from the ground up — logo, colour palette, type scale, and usage guidelines delivered as a comprehensive brand book.",
+      "link": "#"
+    },
+    {
+      "image": "/work-beta.svg",
+      "tag": "Web Design",
+      "title": "Project Beta",
+      "description": "A responsive marketing site designed to convert visitors into leads, with a clear information architecture and performance-first build.",
+      "link": "#"
+    },
+    {
+      "image": "/work-gamma.svg",
+      "tag": "Strategy",
+      "title": "Project Gamma",
+      "description": "A go-to-market strategy that mapped the competitive landscape, defined audience segments, and produced a 12-month execution roadmap.",
+      "link": "#"
+    },
+    {
+      "image": "/work-delta.svg",
+      "tag": "Development",
+      "title": "Project Delta",
+      "description": "A custom web application built with performance and accessibility in mind, delivering a seamless experience across all devices.",
+      "link": "#"
+    },
+    {
+      "image": "/work-alpha.svg",
+      "tag": "Branding",
+      "title": "Project Epsilon",
+      "description": "A visual identity refresh for an established business entering a new market — retaining brand equity while signalling a bold new direction.",
+      "link": "#"
+    },
+    {
+      "image": "/work-beta.svg",
+      "tag": "Web Design",
+      "title": "Project Zeta",
+      "description": "An e-commerce storefront redesign focused on reducing friction in the purchase journey and increasing average order value.",
+      "link": "#"
+    }
+  ],
+
+  "map": {
+    "src":   "https://maps.google.com/maps?q=Bluegumbosch+QwaQwa+Free+State+South+Africa&output=embed",
+    "title": "Our location — Bluegumbosch, QwaQwa"
+  },
+
+  "contact": {
+    "email":     "hello@yourbrand.co.za",
+    "emailHref": "mailto:hello@yourbrand.co.za",
+    "phone":     "+27 (0)00 000 0000",
+    "phoneHref": "tel:+27000000000",
+    "address":   "Bluegumbosch, QwaQwa, Free State"
+  },
+
+  "hours": {
+    "weekdays":  "08:00 – 17:00",
+    "saturday":  "09:00 – 15:00",
+    "sunday":    "By prior arrangement"
+  }
+}

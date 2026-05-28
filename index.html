@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <meta name="description" content="Website — built on Replit. Update this description to reflect the app." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Website" />
+    <meta property="og:description" content="Website — built on Replit." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/sr/theme.css" type="text/css" />
+    <link rel="stylesheet" href="/src/index.css" type="text/css"/>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+
+    <!-- ======================================================
+         HEADER
+    ====================================================== -->
+    <header class="site-header">
+      <div class="container">
+        <a href="#" class="nav-logo">YourBrand</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav id="navMenu" class="nav-menu">
+          <ul class="nav-links">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact" class="nav-cta">Get started</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ======================================================
+         MAIN
+    ====================================================== -->
+    <main>
+
+      <!-- HERO -->
+      <section class="hero section" data-setting-bg="hero.image" style="background-image: url('/hero.svg')">
+        <div class="container">
+          <p class="hero__eyebrow" data-setting="hero.eyebrow">Introducing version 1</p>
+          <h1 class="hero__heading" data-setting="hero.heading">A clear headline for your product</h1>
+          <p class="hero__sub" data-setting="hero.sub">
+            A short supporting sentence that explains what you do and who it is for.
+            Keep this to two lines maximum.
+          </p>
+          <div class="hero__actions">
+            <a data-setting="hero.primaryText" data-setting-href="hero.primaryHref" href="#contact" class="btn btn--primary">Get started</a>
+            <a data-setting="hero.secondaryText" data-setting-href="hero.secondaryHref" href="#features" class="btn btn--outline">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section section--alt">
+        <div class="container">
+          <div class="split">
+            <div class="split__image" aria-hidden="true"></div>
+            <div class="split__body">
+              <p class="section-label">About</p>
+              <h2 class="section-heading">A bit about us</h2>
+              <p>
+                This is the first paragraph of your about section. Use it to
+                establish credibility, share your story, or explain your mission
+                in plain language.
+              </p>
+              <p>
+                A second paragraph with more detail. Keep both paragraphs concise
+                — two to three sentences each is enough.
+              </p>
+              <a href="#contact" class="btn btn--primary">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section id="features" class="section">
+        <div class="container">
+          <p class="section-label">Features</p>
+          <h2 class="section-heading">Why choose us</h2>
+          <p class="section-sub">
+            A brief introduction to the features section. Two sentences at most.
+          </p>
+          <div class="features-grid">
+            <article class="feature-card">
+              <div class="feature-card__icon">◆</div>
+              <h3 class="feature-card__title">Feature one</h3>
+              <p class="feature-card__desc">A short description of what this feature does and why it matters to the user.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__icon">◈</div>
+              <h3 class="feature-card__title">Feature two</h3>
+              <p class="feature-card__desc">A short description of what this feature does and why it matters to the user.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-card__icon">◉</div>
+              <h3 class="feature-card__title">Feature three</h3>
+              <p class="feature-card__desc">A short description of what this feature does and why it matters to the user.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section id="work" class="section section--alt">
+        <div class="container">
+          <p class="section-label">Our work</p>
+          <h2 class="section-heading">Selected projects</h2>
+          <p class="section-sub">
+            A handpicked selection of work we are proud of. Replace these cards
+            with your real projects.
+          </p>
+          <div class="work-filters" id="workFilters" aria-label="Filter projects by tag"></div>
+          <div class="carousel" id="workCarousel" aria-label="Project showcase">
+            <div class="carousel__track-wrap">
+              <div class="carousel__track"></div>
+            </div>
+            <button class="carousel__btn carousel__btn--prev" aria-label="Previous project">&#8592;</button>
+            <button class="carousel__btn carousel__btn--next" aria-label="Next project">&#8594;</button>
+            <div class="carousel__dots" role="tablist" aria-label="Slide navigation"></div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ======================================================
+         CONTACT
+    ====================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <p class="section-label">Contact us</p>
+        <h2 class="section-heading">Get in touch</h2>
+        <p class="section-sub">
+          We'd love to hear from you. Find us at the details below or stop by during our operating hours.
+        </p>
+
+        <div class="contact-grid">
+
+          <!-- Map -->
+          <div class="contact-map">
+            <iframe
+              data-setting-src="map.src"
+              data-setting-title="map.title"
+              title="Our location — Bluegumbosch, QwaQwa"
+              src="https://maps.google.com/maps?q=Bluegumbosch+QwaQwa+Free+State+South+Africa&output=embed"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <!-- Details -->
+          <div class="contact-details">
+
+            <div class="contact-block">
+              <h3 class="contact-block__title">Contact details</h3>
+              <ul class="contact-list">
+                <li>
+                  <span class="contact-list__icon" aria-hidden="true">✉</span>
+                  <a data-setting="contact.email" data-setting-href="contact.emailHref" href="mailto:hello@yourbrand.co.za">hello@yourbrand.co.za</a>
+                </li>
+                <li>
+                  <span class="contact-list__icon" aria-hidden="true">✆</span>
+                  <a data-setting="contact.phone" data-setting-href="contact.phoneHref" href="tel:+27000000000">+27 (0)00 000 0000</a>
+                </li>
+                <li>
+                  <span class="contact-list__icon" aria-hidden="true">⚲</span>
+                  <span data-setting="contact.address">Bluegumbosch, QwaQwa, Free State</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-block">
+              <h3 class="contact-block__title">Operating hours</h3>
+              <table class="hours-table">
+                <tbody>
+                  <tr>
+                    <td class="hours-table__day">Monday – Friday</td>
+                    <td class="hours-table__time" data-setting="hours.weekdays">08:00 – 17:00</td>
+                  </tr>
+                  <tr>
+                    <td class="hours-table__day">Saturday &amp; Public Holidays</td>
+                    <td class="hours-table__time" data-setting="hours.saturday">09:00 – 15:00</td>
+                  </tr>
+                  <tr>
+                    <td class="hours-table__day">Sunday</td>
+                    <td class="hours-table__time hours-table__time--note" data-setting="hours.sunday">By prior arrangement</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================
+         FOOTER
+    ====================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <span>© <span id="year"></span> YourBrand. All rights reserved.</span>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
