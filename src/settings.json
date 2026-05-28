@@ -69,8 +69,8 @@
   },
 
   "hours": {
-    "weekdays":  "08:00 – 17:00",
-    "saturday":  "09:00 – 15:00",
+    "weekdays":  "08:00 - 17:00",
+    "saturday":  "09:00 - 15:00",
     "sunday":    "By prior arrangement"
   }
 }

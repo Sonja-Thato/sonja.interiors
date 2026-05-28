@@ -46,7 +46,7 @@ function buildSlide(project, index) {
   article.className = "work-card";
   article.id = `project-${index + 1}`;
   article.innerHTML = `
-    <img src="${project.image}" alt="${project.title}" class="work-card__image">
+    <img src="src/images${project.image}" alt="${project.title}" class="work-card__image">
     <div class="work-card__body">
       <span class="work-card__tag">${project.tag}</span>
       <h3 class="work-card__title">${project.title}</h3>
@@ -155,7 +155,7 @@ function initProjectSection(projects) {
 }
 
 /* ── Fetch settings and bootstrap everything ─────────────── */
-fetch("/settings.json")
+fetch("/src/settings.json")
   .then((r) => r.json())
   .then((settings) => {
     /* Generic data-attribute bindings */
@@ -181,7 +181,7 @@ fetch("/settings.json")
 
     document.querySelectorAll("[data-setting-bg]").forEach((el) => {
       const val = get(settings, el.dataset.settingBg);
-      if (val !== undefined) el.style.backgroundImage = `url(${val})`;
+      if (val !== undefined) el.style.backgroundImage = `url(/src/images${val})`;
     });
 
     /* Projects section */
