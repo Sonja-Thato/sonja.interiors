@@ -49,9 +49,9 @@
   ---------------------------------------------------------- */
 
   /* Brand colours */
-  --bs-primary:          #1a1a1a;   /* main brand / CTA colour */
+  --bs-primary:          #CC0000;   /* main brand / CTA colour */
   --bs-primary-text:     #ffffff;   /* text rendered on a primary-coloured surface */
-  --bs-secondary:        #6b6b6b;
+  --bs-secondary:        #17BEBB;
   --bs-secondary-text:   #ffffff;
   --bs-success:          var(--bs-green);
   --bs-info:             var(--bs-cyan);
@@ -62,9 +62,8 @@
 
   /* Body / layout */
   --bs-body-bg:          #ffffff;   /* page background */
-  --bs-secondary-bg:     #f5f5f5;   /* alternate / surface background */
+  --bs-secondary-bg:     #6B6B6B;   /* alternate / surface background */
   --bs-body-color:       #1a1a1a;   /* default text colour */
   --bs-secondary-color:  #6b6b6b;   /* muted / supporting text */
   --bs-border-color:     #e0e0e0;   /* dividers, card borders */
-
 }
